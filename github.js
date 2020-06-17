@@ -41,7 +41,7 @@ const repositories = [
   {
     name: "zZPiglet -- 饿了么红包",
     file_names: ["elem"],
-    url: "https://github.com/zZPiglet/Task/tree/master/elem",
+    url: "https://github.com/zZPiglet/Task/tree/master",
   },
 ];
 
