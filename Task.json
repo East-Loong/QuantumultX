@@ -39,7 +39,7 @@
         "3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",       
         "3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js , tag=腾讯视频 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png",
         "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/meituan.png",
-        "10 0 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云, img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png", 
+        "8 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云, img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png", 
         "3 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js , tag=爱奇艺 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png",
         "0 10 * * * https://raw.githubusercontent.com/dongzi-L/Module/master/github.js, tag=GitHub监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/github.png", 
      ]
