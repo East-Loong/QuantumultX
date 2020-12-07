@@ -34,13 +34,13 @@
         "10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png", 
         "10 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js, tag=健康抽奖机, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_health.png", 
         "10 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png", 
-        "5 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么签到 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
+        "2 0 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么签到 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
         "50 23 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemPea.js , tag=饿了么豆 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
         "3 0 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/elem/elemSign.js, tag=饿了么红包, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",       
-        "3 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js , tag=腾讯视频 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png",
-        "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/meituan.png",
-        "8 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云, img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png", 
-        "3 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js , tag=爱奇艺 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png",
+        "4 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js , tag=腾讯视频 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png",
+        "5 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/meituan/meituan.js , tag=美团 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/meituan.png",
+        "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云, img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png", 
+        "7 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js , tag=爱奇艺 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png",
         "0 10 * * * https://raw.githubusercontent.com/dongzi-L/Module/master/github.js, tag=GitHub监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/github.png", 
      ]
 }   
