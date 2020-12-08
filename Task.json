@@ -42,5 +42,7 @@
         "6 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js, tag=网易云, img-url=https://raw.githubusercontent.com/Orz-3/task/master/neteasemusic.png", 
         "7 0 * * * https://raw.githubusercontent.com/NobyDa/Script/master/iQIYI-DailyBonus/iQIYI.js , tag=爱奇艺 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/iQIYI.png",
         "0 10 * * * https://raw.githubusercontent.com/dongzi-L/Module/master/github.js, tag=GitHub监控, img-url=https://raw.githubusercontent.com/Orz-3/task/master/github.png", 
-     ]
+        "10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_digital_floor.js, tag=数码加购京豆, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png",
+        "0 0,9,11,13,15,17,19,20,21,23 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js, tag=直播红包雨, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png",
+    ]
 }   
