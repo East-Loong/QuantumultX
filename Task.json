@@ -47,7 +47,6 @@
         "1 0 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/bubei/bubei.js, tag=不背单词, img-url=https://raw.githubusercontent.com/Orz-3/task/master/bubei.png",
         "0 9 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/jd/JD_BaiTiao.js, tag=京东白条 ,img-url=https://raw.githubusercontent.com/shoujiqiyuan/PokemonGOforQuanX/master/IconSet/Z012.png",
         "12 4 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/csdn/csdn.js, tag=CSDN ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/csdn.png",
-        "20 5 8 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.js, tag=中国移动 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/10086.png",
         "0 1,20 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/DiDi/DiDi_new.js , tag=滴滴出行 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/didi.png",
 
     ]
