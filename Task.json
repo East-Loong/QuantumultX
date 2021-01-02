@@ -58,5 +58,7 @@
         "20 12,6 * * * https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js, tag=来客有礼 ,img-url=https://raw.githubusercontent.com/Orz-3/task/master/lkyl.png",
         "0 */3 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js, tag=京东金融-天天提鹅 , img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_daily_egg.png",
         "12 * * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js, tag=京东金融-养猪猪 , img-url=https://raw.githubusercontent.com/ChuheGit/1/main/QuantumultX/Gallery/API-Icon/jd_pigPet.png",
+        "10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy_coin.js, tag=crazyJoy挂机",
+
   ]
 } 
