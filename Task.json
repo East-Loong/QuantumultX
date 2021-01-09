@@ -46,7 +46,6 @@
         "11 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js, tag=京东排行榜, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png",
         "10-20/5 12 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live.js, tag=京东直播, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_live_redrain.png",
         "15 17 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/backUp/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png",
-        "10 8 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdh.js, tag=京东健康, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_jdh.png",
         "0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdzz.png",
         "10 9 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_watch.js, tag=京东看一看, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_watch.png",
         "55 23 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unbind.js, tag=注销京东会员卡",
