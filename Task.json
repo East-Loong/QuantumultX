@@ -27,7 +27,7 @@
         "16 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_small_home.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/58xinian/icon/master/ddxw.png", 
         "10 *\/4 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_story.js, tag=京喜金牌厂长, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdgc.png", 
         "0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png", 
-        "0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car_exchange, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png",     
+        "0 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png",     
         "30 10 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js, tag=领京豆额外奖励, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_bean_home.png", 
         "10 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js, tag=京东快递签到, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_kd.png", 
         "11 1 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_lotteryMachine.js, tag=京东抽奖机, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd.png",
