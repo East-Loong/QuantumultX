@@ -1,5 +1,5 @@
 {
-  "name": "ldz task gallery",
+  "name": "任务",
   "description": "https://github.com/dongzi-L/QuantumultX",
   "task": [
         "10 */6 * * * https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js , tag=京东 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/jd.png",
