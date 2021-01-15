@@ -49,7 +49,6 @@
         "35 0 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_nh.js, tag=京东年货节, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_nh.png",
         "1 * * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_family.png",
 
-        #> shylocks
         "1 8,9 14-31/1 1 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_bj.js, tag=宝洁美发屋",
         "30,31 20-23/1 12 1 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain.js, tag=超级直播间红包雨, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png",
         "10 20 15 1 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_mh_super.js, tag=幸运值抽京豆",
