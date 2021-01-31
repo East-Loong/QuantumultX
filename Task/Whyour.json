@@ -1,0 +1,8 @@
+{
+  "name": "whyour的任务",
+  "description": "https://github.com/dongzi-L/QuantumultX",
+  "task": [
+        "10 * * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jd_zjd_tuan.js, tag=京东赚京东开团, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png",
+        "0 0 * * * https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_jdzz_light.png",
+  ]
+} 
