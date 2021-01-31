@@ -1,5 +1,5 @@
 {
-  "name": "dongzi的任务",
+  "name": "东子的任务",
   "description": "https://github.com/dongzi-L/QuantumultX",
   "task": [
         "3 13 * * * https://raw.githubusercontent.com/zZPiglet/Task/master/elem/elemCheckIn.js , tag=饿了么签到 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
