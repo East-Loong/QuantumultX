@@ -38,7 +38,7 @@ let ids = {
   '21': 'RRA2Q7wY3LidMtapjGRRrdMtKoaP2bv',
   '22': 'RRA2Q7wY3LidMtapjGRRrdMtKoaP2bv',
   '23': 'RRA2Q7wY3LidMtapjGRRrdMtKoaP2bv',
-  '0': 'RRA2Q7wY3LidMtapjGRRrdMtKoaP2bv',
+  '0': 'RRA2Q7wY3LidMtapjGRRrdMtKoaP2bv'
 }
 
 !(async () => {
