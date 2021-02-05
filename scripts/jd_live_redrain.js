@@ -29,9 +29,9 @@ if ($.isNode()) {
 }
 const JD_API_HOST = 'https://api.m.jd.com/api';
 let ids = {
-  '19': 'RRA2MAxXghV5Ye2cFYDHR1eDHY4s9kQ',
-  '20': 'RRA3b7VFEeTmjy2tK2BPySVEqNeeTdA',
-  '21': 'RRAAFZUWuxxhCsdmgemYFHhLbAFUbe'
+  '19': 'RRArq4bmitwjmyDY8nrfASmKhoojen',
+  '20': 'RRArq4bmitwjmyDY8nrfASmKhoojen',
+  '21': 'RRArq4bmitwjmyDY8nrfASmKhoojen'
 }
 !(async () => {
   if (!cookiesArr[0]) {
