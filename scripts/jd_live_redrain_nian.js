@@ -1,4 +1,22 @@
 /*
+年货直播红包雨
+活动时间：2021年1月20日-2021年1月30日、2月3日、2月5日每天0,9,11,13,15,17,19,20,21,23点可领
+更新地址：https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js
+已支持IOS双京东账号, Node.js支持N个京东账号
+脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js
+============Quantumultx===============
+[task_local]
+#年货直播红包雨
+0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 * https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js, tag=年货直播红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_live_redrain_nian.jpg, enabled=true
+================Loon==============
+[Script]
+cron "0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 *" script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js, tag=年货直播红包雨
+===============Surge=================
+年货直播红包雨 = type=cron,cronexp="0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js
+============小火箭=========
+年货直播红包雨 = type=cron,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_live_redrain_nian.js, cronexpr="0 0,9,11,13,15,17,19,20,21,23 3,5,20-30/1 1,2 *", timeout=200, enable=true
+
+/*
  * @Author: shylocks https://github.com/shylocks
  * @Date: 2021-01-20 09:00:00 
  * @Last Modified by: TongLin138
@@ -29,17 +47,17 @@ if ($.isNode()) {
 }
 const JD_API_HOST = 'https://api.m.jd.com/api';
 let ids = {
-  '0':'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '9':'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '11':'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '13':'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '15':'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '17':'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '19':'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '20': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '21': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '22': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK',
-  '23': 'RRA2v2Lh5mtxYnC4j6VHrjoaDz7crQK'
+  '0':'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '9':'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '11':'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '13':'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '15':'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '17':'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '19':'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '20': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '21': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '22': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
+  '23': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY'
 }
 !(async () => {
   if (!cookiesArr[0]) {
