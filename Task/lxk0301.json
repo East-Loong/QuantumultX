@@ -53,6 +53,7 @@
         "11 0,1 * * * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_wechat_sign.js, tag=京东粉丝专享, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/shylocks/jd_wechat_sign.jpg",
         "10 8 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg",
         "5 7 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_xg.js, tag=小鸽有礼, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_xg.jpg",
+        "0 0 0,9,11,13,15,17,19,20,21,23 8-18/1 2 * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_live_redrain_nian.js, tag=年货直播红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_live_redrain_nian.jpg",
 
         "10 10,11 * * 2-5 https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js, tag=百变大咖秀",
 
