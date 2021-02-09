@@ -56,6 +56,7 @@
         "0 0 0,9,11,13,15,17,19,20,21,23 8-18/1 2 * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_live_redrain_nian.js, tag=年货直播红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_live_redrain_nian.jpg",
 
         "10 10,11 * * 2-5 https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js, tag=百变大咖秀",
+        "5 0 * * * https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js, tag=京东价格保护, img-url=https://raw.githubusercontent.com/ZCY01/img/master/pricev1.png",
 
   ]
 } 
