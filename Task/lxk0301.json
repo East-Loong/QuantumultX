@@ -58,6 +58,7 @@
 
         "10 10,11 * * 2-5 https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js, tag=百变大咖秀",
         "5 0 * * * https://raw.githubusercontent.com/ZCY01/daily_scripts/main/jd/jd_priceProtect.js, tag=京东价格保护, img-url=https://raw.githubusercontent.com/ZCY01/img/master/pricev1.png",
+        "10 0 * * * https://raw.githubusercontent.com/i-chenzhe/qx/master/jd_xmf.js, tag= 京东小魔方",
 
   ]
 } 
