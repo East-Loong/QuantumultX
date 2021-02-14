@@ -6,7 +6,6 @@
         "40 9 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js, tag=京东排行榜, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_rankingList_light.png",
         "11 10 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_woHome.js, tag=东东小窝, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/woHome.png", 
         "11 6 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_crazyJoy.js, tag=疯狂的JOY, img-url=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/image/jd_crazyJoy.png",
-        "5 0-22/2 * * * https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_nianBeast.js, tag=全民炸年兽, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jd_nian_light.png",
 
   ]
 } 
