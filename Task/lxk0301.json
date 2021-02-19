@@ -46,6 +46,7 @@
         "17 */2 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jd_family_light.png",
         "20 8 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_sgmh.js, tag=闪购盲盒, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_sgmh_light.png",
         "0 9,12,20,21 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_global.js, tag=环球挑战赛, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/jd_global.png",
+        "0 7 19-25 2 * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_nzmh.js, tag=女装盲盒, img-url=https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png",
 
         "30 7 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_xgyl.js, tag=小鸽有礼2, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_xg.jpg",
         "10 8 * * * https://gitee.com/lxk0301/jd_scripts/raw/master/jd_ms.js, tag=京东秒秒币, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_ms.jpg",
