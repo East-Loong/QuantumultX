@@ -53,6 +53,8 @@
 
         "10 10,11 * * * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_entertainment.js, tag=百变大咖秀",
         "3 10 * * * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_fanslove.js, tag=粉丝互动",
+        "0 0 22-28 2 * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_asus_iqiyi.js, tag=华硕-iqiyi",
+
   ]
 } 
 
