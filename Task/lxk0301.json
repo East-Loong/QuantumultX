@@ -23,7 +23,7 @@
     "10 0 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jdzz.js, tag=京东赚赚, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_jdzz_light.png",
     "15 0-23/2 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy.js, tag=京东宠汪汪, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_joy_light.png",   
     "15 0-23/1 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_joy_feedPets_light.png", 
-    "0 0-16/8 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_joy_reward_light.png", 
+    "0,5,10,15 0 0-16/8 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_joy_reward_light.png", 
     "15 10 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_run.js, tag=宠汪汪邀请助力与赛跑助力, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_joy_run_light.png", 
     "10 0-21/3 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_joy_steal.js, tag=宠汪汪偷好友积分与狗粮, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_joy_steal_light.png", 
     "0 9,12,18 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_jxnc.js, tag=京喜农场, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxnc.png, enabled=true",
@@ -49,6 +49,7 @@
     "30 7 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_xgyl.js, tag=小鸽有礼2, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_xg.jpg",
     "5 0 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jx_sign.js, tag=京喜签到, img-url= https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jx_sign_light.png",
     "15 20 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/xmSports.png",
+    "17 */2 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_family.js, tag=京东家庭号, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jd_family_light.png",
 
     "1 * * * * https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jx_cfd_light.png",
     "0 0 0 * * * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/tx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
