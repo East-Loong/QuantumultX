@@ -10,6 +10,7 @@
     "10 7 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car.js, tag=京东汽车, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_car_light.png",
     "0 0 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js, tag=京东汽车兑换, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_car_exchange_light.png", 
     "2 0-23/4 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cash.js, tag=签到领现金, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_cash_light.png",
+    "30 8,13,19,23 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jx_cfd_light.png",
     "5 0 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_club_lottery.js, tag=摇京豆, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/lxk0301/Light/jd_club_lottery_light.png",
     "10 7 * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy.js, tag=crazyJoy任务, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jd_crazy_joy_light.png",
     "40 * * * * https://jdsharedresourcescdn.azureedge.net/jdresource/jd_crazy_joy_coin.js, tag=crazyJoy挂机, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jd_crazy_joy_coin_light.png",
