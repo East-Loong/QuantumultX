@@ -1,61 +1,34 @@
-/**
-*
-  Name:财富岛提现
-  Address: 京喜App ====>>>> 全民赚大钱
-  Author：MoPoQAQ
-  Update: 2021/2/9 15:43
-  获取Token方式：
-  打开【❗️京喜农场❗️】，手动任意完成<工厂任务>、<签到任务>、<金牌厂长任务>一项，提示获取cookie成功即可，然后退出跑任务脚本
- * 获取京喜tokens方式
- * 打开京喜农场，手动完成任意任务，必须完成任务领到水滴，提示获取cookie成功
- * 打开京喜工厂，收取电力，提示获取cookie成功
- * 打开京喜财富岛，手动成功提现一次，提示获取cookie成功
- * 手动任意完成，提示获取cookie成功即可，然后退出跑任务脚本
-  hostname = wq.jd.com, m.jingxi.com
-  # quanx
-  [rewrite_local]
-  ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-  ^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-  ^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut url script-request-header https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-  # loon
-  [Script]
-  http-request ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
-  http-request ^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
-  http-request ^^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js, requires-body=false, timeout=10, tag=京喜token
-  # surge
-  [Script]
-  京喜token = type=http-request,pattern=^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-  京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-  京喜token = type=http-request,pattern=^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-
-*
-**/
-
 const $ = new Env("京喜财富岛提现");
 const JD_API_HOST = "https://m.jingxi.com/";
 const jdCookieNode = $.isNode() ? require("./jdCookie.js") : "";
 const jdTokenNode = $.isNode() ? require('./jdJxncTokens.js') : '';
-$.result = [];
+const notify = $.isNode() ? require('./sendNotify') : '';
+const db = require("./db")
+
+$.result = '';
 $.cookieArr = [];
 $.currentCookie = '';
-$.tokenArr = [];
+$.tokenArr = [
+];
 $.currentToken = {};
 $.strPhoneID = '';
 $.strPgUUNum = '';
 $.userName = '';
-
+let records = []
 !(async () => {
   if (!getCookies()) return;
-  if (!getTokens()) return;
   for (let i = 0; i < $.cookieArr.length; i++) {
+    $.index = i+1
     $.currentCookie = $.cookieArr[i];
     $.currentToken = $.tokenArr[i];
-    if ($.currentCookie) {
+    if ($.currentCookie &&$.currentToken ) {
       $.userName =  decodeURIComponent($.currentCookie.match(/pt_pin=(.+?);/) && $.currentCookie.match(/pt_pin=(.+?);/)[1]);
       $.log(`\n开始【京东账号${i + 1}】${$.userName}`);
-      
       await cashOut();
     }
+  }
+  for(let vo of records){
+    await db.writeDb($.name, vo, 1)
   }
   await showMsg();
 })()
@@ -68,14 +41,16 @@ function cashOut() {
       taskUrl(
         `consume/CashOut`,
         `ddwMoney=100&dwIsCreateToken=0&ddwMinPaperMoney=100000&strPgtimestamp=${$.currentToken['timestamp']}&strPhoneID=${$.currentToken['phoneid']}&strPgUUNum=${$.currentToken['farm_jstoken']}`
-      ), 
+      ),
       async (err, resp, data) => {
         try {
           $.log(data);
           const { iRet, sErrMsg } = JSON.parse(data);
           $.log(sErrMsg);
-          $.result.push(`【${$.userName}】\n ${sErrMsg == "" ? sErrMsg="今天手气太棒了" : sErrMsg}`);
-          resolve(sErrMsg);
+          $.result += (`【${$.userName}】 ${sErrMsg === "" ? "今天手气太棒了" : sErrMsg}\n`);
+          if(sErrMsg === ""){
+            records.push($.index)
+          }
         } catch (e) {
           $.logErr(e, resp);
         } finally {
@@ -84,11 +59,11 @@ function cashOut() {
       }
     );
   });
-} 
+}
 
 function taskUrl(function_path, body) {
   return {
-    url: `${JD_API_HOST}jxcfd/${function_path}?strZone=jxcfd&bizCode=jxcfd&source=jxcfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=&${body}&_stk=_cfd_t%2CbizCode%2CddwMinPaperMoney%2CddwMoney%2CdwEnv%2CdwIsCreateToken%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrZone&_ste=1&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
+    url: `${JD_API_HOST}jxcfd/${function_path}?strZone=jxcfd&bizCode=jxcfd&source=jxcfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=&${body}&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
     headers: {
       Cookie: $.currentCookie,
       Accept: "*/*",
@@ -105,6 +80,7 @@ function taskUrl(function_path, body) {
 function getCookies() {
   if ($.isNode()) {
     $.cookieArr = Object.values(jdCookieNode);
+    $.tokenArr = Object.values(jdTokenNode).map(vo=> JSON.parse(vo));
   } else {
     const CookiesJd = JSON.parse($.getdata("CookiesJD") || "[]").filter(x => !!x).map(x => x.cookie);
     $.cookieArr = [$.getdata("CookieJD") || "", $.getdata("CookieJD2") || "", ...CookiesJd];
@@ -123,39 +99,13 @@ function getCookies() {
   return true;
 }
 
-function getTokens() {
-  if ($.isNode()) {
-    Object.keys(jdTokenNode).forEach((item) => {
-      $.tokenArr.push(jdTokenNode[item] ? JSON.parse(jdTokenNode[item]) : '{}');
-    })
-  } else {
-    $.tokenArr = [JSON.parse($.getdata('jxnc_token1') || '{}'), JSON.parse($.getdata('jxnc_token2') || '{}')];
-  }
-  if (!$.tokenArr[0]) {
-    $.msg(
-      $.name,
-      "【⏰提示】请先获取京喜Token\n获取方式见脚本说明"
-    );
-    return false;
-  }
-  return true;
-}
 
 function showMsg() {
-  return new Promise((resolve) => {
-    if ($.notifyTime) {
-      const notifyTimes = $.notifyTime.split(",").map((x) => x.split(":"));
-      const now = $.time("HH:mm").split(":");
-      $.log(`\n${JSON.stringify(notifyTimes)}`);
-      $.log(`\n${JSON.stringify(now)}`);
-      if (
-        notifyTimes.some((x) => x[0] === now[0] && (!x[1] || x[1] === now[1]))
-      ) {
-        $.msg($.name, "", `\n${$.result.join("\n")}`);
-      }
-    } else {
-      $.msg($.name, "", `\n${$.result.join("\n")}`);
-    }
+  return new Promise(async (resolve) => {
+    if($.isNode())
+     await notify.sendNotify($.name, $.result)
+    else
+      await $.msg($.name, $.result)
     resolve();
   });
 }
