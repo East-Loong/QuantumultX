@@ -57,5 +57,7 @@
     "3 10 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js, tag=粉丝互动",
     "3 20 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js, tag=摇一摇",
     "17 10 * * * https://raw.githubusercontent.com/i-chenzhe/qx/master/jd_xmf.js, tag= 京东小魔方",
+    "3 10 1 * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shakeBean.js, tag=京东会员-摇京豆",
+
 ]
 }
