@@ -2,6 +2,18 @@
   "name": "东子的任务",
   "description": "https://github.com/dongzi-L/QuantumultX",
   "task": [
+        "1 * * * * https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jx_cfd_light.png",
+        "0 0 0 * * * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/tx.js, tag=京喜财富岛提现, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxcfd.png",
+        "0 0,9,11,13,15,17,19,20,21,23 * * * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_live_redrain_nian.js, tag=年货直播红包雨, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/master/Icon/shylocks/jd_live_redrain_nian.jpg",
+        "10 10,15 13-20 3 *  https://raw.githubusercontent.com/i-chenzhe/qx/main/z_wish.js, tag=众筹许愿池, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
+        "15 10 10-31 3 *  https://raw.githubusercontent.com/i-chenzhe/qx/main/z_unionPoster.js, tag=美的家电节, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
+        "3 10 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_marketLottery.js, tag=京东超市-大转盘, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",    
+        "10 10,11 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_entertainment.js, tag=百变大咖秀, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
+        "5 10 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_fanslove.js, tag=粉丝互动, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
+        "3 20 * * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shake.js, tag=摇一摇, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png, enabled=true",
+        "17 10 * * * https://raw.githubusercontent.com/i-chenzhe/qx/master/jd_xmf.js, tag= 京东小魔方",
+        "3 10 1 * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_shakeBean.js, tag=京东会员-摇京豆",
+
         "50 23 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_daily.js, tag=饿了么_领取吃货豆, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
         "00 10 * * * https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/eleme/eleme_mission.js, tag=饿了么_领取会员任务, img-url=https://raw.githubusercontent.com/Orz-3/task/master/elem.png",
         "5 14 * * * https://raw.githubusercontent.com/chavyleung/scripts/master/videoqq/videoqq.js , tag=腾讯视频 , img-url=https://raw.githubusercontent.com/Orz-3/task/master/videoqq.png",
