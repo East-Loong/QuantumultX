@@ -2,6 +2,9 @@
   "name": "i-chenzhe的任务",
   "description": "https://github.com/dongzi-L/QuantumultX",
   "task": [
+        "5 0 * 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mgold.js, tag=金口碑奖投票,img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png",
+        "5 1,6,11,16,21 * 3-4 *  https://raw.githubusercontent.com/i-chenzhe/qx/main/z_super5g.js, tag=5G超级盲盒,img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png",
+        "11 12 17-30 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_oneplus.js, tag=一加盲盒, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png",
         "5 8,14,20 17-25 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_mother_jump.js, tag=母婴-跳一跳, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png",
         "12 15 15-29 3 * https://raw.githubusercontent.com/i-chenzhe/qx/main/z_lenovo.js, tag=联想集卡活动, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png",
         "10 10 16-18 * * https://raw.githubusercontent.com/i-chenzhe/qx/main/jd_xmf.js, tag=小魔方, img-url=https://raw.githubusercontent.com/i-chenzhe/qx/master/img/icon.png",
