@@ -14,10 +14,10 @@ by Macsuny
 ~~~~~~~~~~~~~~~~
 Surge 4.0 :
 [Script]
-lkyl.js = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js,script-update-interval=0
+lkyl.js = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/lkyl.js,script-update-interval=0
 
 # 来客有礼 Cookie.
-lkyl.js = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/lkyl.js
+lkyl.js = type=http-request,pattern=https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\?,script-path=https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/lkyl.js
 ~~~~~~~~~~~~~~~~
 Loon 2.1.0+
 [Script]
@@ -28,10 +28,10 @@ http-request https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/tas
 
 QX 1.0. 7+ :
 [task_local]
-0 9 * * * lkyl.js
+0 9 * * * https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/lkyl.js
 
 [rewrite_local]
-https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? url script-request-header lkyl.js
+https:\/\/draw\.jdfcloud\.com\/\/api\/bean\/square\/silverBean\/task\/get\? url script-request-header https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/lkyl.js
 ~~~~~~~~~~~~~~~~
 [MITM]
 hostname = draw.jdfcloud.com
