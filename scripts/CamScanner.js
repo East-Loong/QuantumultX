@@ -1,14 +1,7 @@
-# !name=Camscanner Unlock
-# !desc=Unlock Camscanner Gold Membership 
-
-# [Script]
 # camscanner.js = requires-body=1,script-path=https://raw.githubusercontent.com/cpphut/surge_module/main/camscanner.js,type=http-response,pattern= https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\?
-
-# [MITM]
 # hostname = %APPEND% ap*.intsig.net
 
 let body = JSON.parse($response.body)
-if (body.data.psnl_vip_property) {
     body.data.psnl_vip_property = {"renew_method": "appstore",
       "initial_tm": "1614867690",
       "svip": 1,
@@ -31,6 +24,3 @@ if (body.data.psnl_vip_property) {
       "last_payment_method": "appstore",
       "product_id": "com.intsig.camscanner.premiums.oneyear.autorenewable.svip.low"}
     $done({body:JSON.stringify(body)})
-} else {
-    $done({})
-}
