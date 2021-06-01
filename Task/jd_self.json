@@ -1,5 +1,5 @@
 {
-  "name": "jd_self的任务",
+  "name": "东子的任务",
   "description": "https://github.com/dongzi-L/QuantumultX",
   "task": [
         "21 * * * * https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd.js, tag=京喜财富岛, img-url=https://raw.githubusercontent.com/yogayyy/Scripts/main/Icon/lxk0301/Light/jx_cfd_light.png",
