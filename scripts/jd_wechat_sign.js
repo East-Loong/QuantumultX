@@ -27,8 +27,8 @@ cron "10 0 * * *" script-path=https://raw.githubusercontent.com/shylocks/Loon/ma
 
 ===============Surge=================
 [Script]
-获取京东微信ck = type=http-request,pattern=^https:\/\/wq\.jd\.com\/bases\/jssdk\/GetWxJsApiSign,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js,script-update-interval=0
-京东粉丝专享 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/shylocks/Loon/main/jd_wechat_sign.js
+获取京东微信ck = type=http-request,pattern=^https:\/\/wq\.jd\.com\/bases\/jssdk\/GetWxJsApiSign,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_wechat_sign.js,script-update-interval=0
+京东粉丝专享 = type=cron,cronexp="10 0 * * *",wake-system=1,timeout=200,script-path=https://raw.githubusercontent.com/dongzi-L/QuantumultX/master/scripts/jd_wechat_sign.js
 */
 const $ = new Env('京东粉丝专享');
 const APIKey = "CookiesJD";
