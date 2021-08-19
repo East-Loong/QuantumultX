@@ -1,0 +1,4 @@
+hostname = api.getmimo.com
+
+#> mimo代码
+^https:\/\/api\.getmimo\.com\/v1\/subscriptions$ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/mimo.js
