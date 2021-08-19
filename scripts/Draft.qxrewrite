@@ -1,0 +1,4 @@
+hostname = backend.getdrafts.com
+
+#> draft
+^https:\/\/backend\.getdrafts\.com\/api\/.*\/verification url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/draft.js
