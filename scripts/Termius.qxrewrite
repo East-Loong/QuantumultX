@@ -1,0 +1,4 @@
+hostname = api.termius.com
+
+#> Termius 
+https:\/\/api\.termius\.com\/api\/.+\/bulk\/account\/ url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/terminus.js
