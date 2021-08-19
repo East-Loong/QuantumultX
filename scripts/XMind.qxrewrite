@@ -1,0 +1,4 @@
+hostname = www.xmind.cn
+
+#> XMind
+https:\/\/www\.xmind\.cn\/\_res\/devices url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/xmind.js
