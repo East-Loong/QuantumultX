@@ -1,0 +1,4 @@
+hostname = license.enpass.io
+
+#> Enpass
+^https:\/\/license\.enpass\.io/api/.+/subscription/me url script-response-body https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/enpass.js
