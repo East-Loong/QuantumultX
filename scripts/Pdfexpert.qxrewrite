@@ -1,0 +1,4 @@
+hostname = license.pdfexpert.com
+
+#> Pdfexpert
+^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) url script-response-body https://raw.githubusercontent.com/langkhach270389/Quantumult-X-LK/master/Scripts/langkhach/pdfexpert.js
