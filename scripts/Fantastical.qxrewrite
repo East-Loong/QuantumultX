@@ -1,0 +1,4 @@
+hostname = api.flexibits.com
+
+#> Fantastical
+^https:\/\/api\.flexibits\.com\/(v1\/auth\/device|v1\/account\/details) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/fantastical.js
